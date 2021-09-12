@@ -1,9 +1,11 @@
 # docker-webapp
-docker build using amazonlinux for hosting static website
+Docker build using amazonlinux for hosting static website.
 - pulls latest amazon linux 2 image
-- Install all required packages(Git, httpd etc.)
+- Install all required packages(git, httpd etc.)
 - Clones codebase from Github(static website using html, css and javascript)
-- Deploys codebased to httpd server
+- Deploys codebase to httpd server and starts the httpd process
+
+Finally, webapp container image is pushed to AWS ECR public repository.
 
 ### Steps
 Clone the repo and run below commands
