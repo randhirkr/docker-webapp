@@ -1,5 +1,9 @@
 # docker-webapp
 docker build using amazonlinux for hosting static website
+- pulls latest amazon linux 2 image
+- Install all required packages(Git, httpd etc.)
+- Clones codebase from Github(static website using html, css and javascript)
+- Deploys codebased to httpd server
 
 ### Steps
 Clone the repo and run below commands
